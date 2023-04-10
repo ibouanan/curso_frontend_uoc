@@ -21,20 +21,21 @@
     {   background: black;
         margin-right: 0px;            
         position: absolute;
-        top: 25%;
-        right: 0%;              
+        top: 28%;
+        right: 6%;              
  ;}
  #cuadro_datos
  {    
     text-align: center;
     background: black;
-    height: 120%;
+    height: 110%;
     width: 29%;
     position: absolute;
     top: 83%;
-    right: 0%;             
+    right: 3%;             
 ;}
 .texto_datos{
     font-size:large;
     color: white; 
 }
+
