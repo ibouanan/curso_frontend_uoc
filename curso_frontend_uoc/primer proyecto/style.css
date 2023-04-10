@@ -14,13 +14,27 @@
     position: absolute;
     top: 25%;
     left: 0%;
-    text-align: left;}
+    text-align: left;
+    }
 
     #cuadro_der
     {   background: black;
-        margin-right: 0px;
+        margin-right: 0px;            
         position: absolute;
         top: 25%;
-        right: 0%;
-        text-align: auto;
+        right: 0%;              
  ;}
+ #cuadro_datos
+ {    
+    text-align: center;
+    background: black;
+    height: 120%;
+    width: 29%;
+    position: absolute;
+    top: 83%;
+    right: 0%;             
+;}
+.texto_datos{
+    font-size:large;
+    color: white; 
+}
