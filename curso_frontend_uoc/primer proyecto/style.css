@@ -8,30 +8,35 @@
     top: 5%;
     left: 0%;
     }
+
+     /* Forma del cuadro de la  */
 #cuadro_izq
-{   background: gainsboro;
+{  
+    background: gainsboro;
     width: 100%;
+    height:max-content;
     position: absolute;
     top: 25%;
     left: 0%;
     text-align: left;
     }
-
+ /* Forma del cuadro de la foto en la pagina del CV */
     #cuadro_der
     {   background: black;
-        margin-right: 0px;            
         position: absolute;
-        top: 28%;
-        right: 6%;              
- ;}
+        top: 2%;
+        right: 14%;              
+ }
+
+  /* Forma del cuadro de datos en la pagina del CV */
  #cuadro_datos
  {    
     text-align: center;
     background: black;
-    height: 110%;
+    height: 100remx;
     width: 29%;
     position: absolute;
-    top: 83%;
+    top:30%;
     right: 3%;             
 ;}
 .texto_datos{
@@ -39,3 +44,35 @@
     color: white; 
 }
 
+ /* Forma del boton link a pagina CV */
+#btn_cv{
+     background: white;
+     border-color: black;
+     border-width: 2px 2px 2px;
+     border-style: solid solid solid;
+     border-spacing: 5px;
+        margin-right: 0px;            
+        position: absolute;
+        top: 10%;
+        right: 6%;}
+    
+
+.graficos_html_1{
+    position: absolute;
+    left: 6%;
+    background-color: black;
+    
+}
+
+.graficos_html_2{
+    position: absolute;
+    left: 40%;
+    background-color: black;    
+}
+
+.graficos_html_3{
+    position: absolute;
+    right: 6%;
+    background-color: black;
+    
+}
