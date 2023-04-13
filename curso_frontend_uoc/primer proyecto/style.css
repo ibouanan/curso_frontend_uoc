@@ -1,15 +1,35 @@
-#introduccion
+
+/* Forma introduccion pagina cv */
+#introduccion_cv
 { text-align: center;
-    background: burlywood;
-    /* height: 100%; */
+background: burlywood;
+width: 100%;
+position: absolute;
+top: 5%;
+left: 0%;
+}
+/* Forma introduccion pagina contacto */
+    #introduccion_contacto
+{ text-align: center;
+    background: rgb(211, 223, 231);
+     height: 100%;
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 5%;
     left: 0%;
     }
+/* Forma introduccion pagina aficiones */
+    #introduccion_aficiones
+    { text-align: center;
+        background: rgb(135, 219, 222);
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        }
 
-     /* Forma del cuadro de la  */
+
+     /* Forma del cuadro de la izquierda pagina cv  */
 #cuadro_izq
 {  
     background: gainsboro;
@@ -21,12 +41,31 @@
     text-align: left;
     }
  /* Forma del cuadro de la foto en la pagina del CV */
-    #cuadro_der
-    {   background: black;
-        position: absolute;
-        top: 2%;
-        right: 14%;              
+    #cuadro_foto
+{   background: black;
+    position: absolute;
+    top: 2%;
+    right: 14%;              
  }
+ /* Forma de la imagen de la playa  */
+ #cuadro_playa
+{   background: black;
+    position: absolute;
+    top: 20%;
+                  
+ }
+
+  /* Forma del formulario de contacto */
+ #cuadro_contacto
+ {  
+     position: absolute;
+     text-align: center;
+     position: absolute;
+     top: 15%;
+     left: 35%;             
+  }
+ 
+
 
   /* Forma del cuadro de datos en la pagina del CV */
  #cuadro_datos
@@ -44,35 +83,110 @@
     color: white; 
 }
 
- /* Forma del boton link a pagina CV */
-#btn_cv{
-     background: white;
-     border-color: black;
-     border-width: 2px 2px 2px;
-     border-style: solid solid solid;
-     border-spacing: 5px;
-        margin-right: 0px;            
-        position: absolute;
-        top: 10%;
-        right: 6%;}
-    
-
+ /* Forma de las imagenes de html, css y js  */
 .graficos_html_1{
     position: absolute;
     left: 6%;
     background-color: black;
+    top: 75%;
     
 }
 
 .graficos_html_2{
     position: absolute;
-    left: 40%;
-    background-color: black;    
+    left: 42%;
+    background-color: black;   
+    top: 75%;
 }
 
 .graficos_html_3{
     position: absolute;
     right: 6%;
     background-color: black;
+    top: 75%;   
+}
+
+
+.graficos_html_4{
+    position: absolute;
+    left: 38%;
+    background-color: black;
+    top: 70%;   
     
 }
+
+.graficos_html_5{
+    position: absolute;
+    left: 48%;
+    background-color: black;   
+    top: 70%;   
+}
+
+.graficos_html_6{
+    position: absolute;
+    right: 35%;
+    background-color: black;
+    top: 70%;    
+}
+
+
+.graficos_html_7{
+    position: absolute;
+    left: 10%;
+    background-color: black;
+    top: 80%;   
+    
+}
+
+.graficos_html_8{
+    position: absolute;
+    left: 20%;
+    background-color: black;   
+    top: 80%;   
+}
+
+.graficos_html_9{
+    position: absolute;
+    left: 30%;;
+    background-color: black;
+    top: 80%;   
+}
+
+
+
+ /* Forma del botones links a otras paginas */
+ .pag_cv{
+    background: white;
+    border-color: black;
+    border-width: 2px 2px 2px;
+    border-style: solid solid solid;
+    border-spacing: 5px;
+    margin-right: 0px;            
+    position: absolute;
+    top: 5%;
+    right: 180px;}
+
+    .pag_aficiones{
+    background: white;
+    border-color: black;
+    border-width: 2px 2px 2px;
+    border-style: solid solid solid;
+    border-spacing: 5px;
+    margin-right: 0px;            
+    position: absolute;
+    top: 5%;
+    right: 90px;}
+
+    .pag_contacto{
+    background: white;
+    border-color: black;
+    border-width: 2px 2px 2px;
+    border-style: solid solid solid;
+    border-spacing: 5px;
+    margin-right: 0px;            
+    position: absolute;
+    top: 5%;
+    right: 10px;}
+
+
+
