@@ -188,5 +188,27 @@ left: 0%;
     top: 5%;
     right: 10px;}
 
+#contenedor {
+    display: flex;
+}
+#cuadro_izq {
+    width: 70%;
+}
+#cuadro_datos {
+    width: 30%;
+}
 
+/* TABLET*/
+@media (max-width: 1024px) {
 
+}
+/* MOVIL */
+    @media (max-width: 540px) {
+
+        #contenedor {
+            display: block;
+        }
+        #cuadro_izq, #cuadro_datos {
+            width: 100%
+        }
+    }
