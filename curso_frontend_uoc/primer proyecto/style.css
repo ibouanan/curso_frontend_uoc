@@ -30,6 +30,10 @@ width: 100%;
     height:max-content;
     text-align: left;
     }
+   
+    #tabulado_cuadro_izq{
+margin-left: 40px;
+    }
  /* Forma del cuadro de la foto en la pagina del CV */
     #cuadro_foto
 {   background: black;
@@ -101,16 +105,16 @@ left: 10%;
     left: 5%;   
 }
 
-.graficos_html_7{   
-    left: 5%;  
+.graficos_html_7{  
+   
 }
 
-.graficos_html_8{   
-    left: 5%;      
+.graficos_html_8{ 
+  
 }
 
-.graficos_html_9{    
-    left: 5%;  
+.graficos_html_9{
+   
 }
 
 
@@ -148,10 +152,10 @@ left: 10%;
 }
 #contenedor_2 {
     display: flex;
+ 
 }
-#cuadro_izq {
-    width: 70%;
-}
+
+
 #cuadro_datos {
     width: 30%;
 }
@@ -165,6 +169,9 @@ left: 10%;
     @media (max-width: 540px) {
 
         #contenedor {
+            display: block;
+        }
+        #contenedor_2 {
             display: block;
         }
         #cuadro_izq, #cuadro_datos {
