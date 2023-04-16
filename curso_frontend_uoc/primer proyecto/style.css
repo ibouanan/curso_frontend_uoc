@@ -12,9 +12,7 @@ width: 100%;
     background: rgb(211, 223, 231);
      height: 100%;
     width: 100%;
-    position: absolute;
-    top: 5%;
-    left: 0%;
+   
     }
 /* Forma introduccion pagina aficiones */
     #introduccion_aficiones
@@ -47,8 +45,9 @@ width: 100%;
 
   /* Forma del formulario de contacto */
  #cuadro_contacto
- {  
+ {  background: rgb(211, 223, 231);
     text-align: center;
+    width: 100%;
      }
  
 
@@ -67,41 +66,51 @@ width: 100%;
 }
 
  /* Forma de las imagenes de html, css y js  */
+ #graficos_html{
+   
+ 
+ }
 .graficos_html_1{  
-    background-color: black;    
+position: relative;  
+left: 0%;
+
 }
 
 .graficos_html_2{    
-    background-color: black;    
+    
+position: relative; 
+left: 5%;
 }
 
 .graficos_html_3{  
-    background-color: black;  
+   
+position: relative;
+left: 10%;   
 }
 
 
 .graficos_html_4{   
-    background-color: black;    
+    left: 5%;  
 }
 
 .graficos_html_5{   
-    background-color: black;     
+    left: 5%;   
 }
 
 .graficos_html_6{    
-    background-color: black;    
+    left: 5%;   
 }
 
 .graficos_html_7{   
-    background-color: black;   
+    left: 5%;  
 }
 
 .graficos_html_8{   
-    background-color: black;        
+    left: 5%;      
 }
 
 .graficos_html_9{    
-    background-color: black;   
+    left: 5%;  
 }
 
 
