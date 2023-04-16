@@ -4,9 +4,7 @@
 { text-align: center;
 background: burlywood;
 width: 100%;
-position: absolute;
-top: 5%;
-left: 0%;
+
 }
 /* Forma introduccion pagina contacto */
     #introduccion_contacto
@@ -23,9 +21,6 @@ left: 0%;
     { text-align: center;
         background: rgb(135, 219, 222);
         width: 100%;
-        position: absolute;
-        top: 5%;
-        left: 0%;
         }
 
 
@@ -35,35 +30,26 @@ left: 0%;
     background: gainsboro;
     width: 100%;
     height:max-content;
-    position: absolute;
-    top: 25%;
-    left: 0%;
     text-align: left;
     }
  /* Forma del cuadro de la foto en la pagina del CV */
     #cuadro_foto
 {   background: black;
-    position: absolute;
-    top: 2%;
-    right: 14%;              
+   
+               
  }
  /* Forma de la imagen de la playa  */
  #cuadro_playa
-{   background: black;
-    position: absolute;
-    top: 20%;
-                  
+{     background: rgb(135, 219, 222);
+    text-align: center;
+    width: 100%;             
  }
 
   /* Forma del formulario de contacto */
  #cuadro_contacto
  {  
-     position: absolute;
-     text-align: center;
-     position: absolute;
-     top: 15%;
-     left: 35%;             
-  }
+    text-align: center;
+     }
  
 
 
@@ -72,11 +58,8 @@ left: 0%;
  {    
     text-align: center;
     background: black;
-    height: 100remx;
-    width: 29%;
-    position: absolute;
-    top:30%;
-    right: 3%;             
+   width: 29%;
+              
 ;}
 .texto_datos{
     font-size:large;
@@ -84,72 +67,41 @@ left: 0%;
 }
 
  /* Forma de las imagenes de html, css y js  */
-.graficos_html_1{
-    position: absolute;
-    left: 6%;
-    background-color: black;
-    top: 75%;
-    
+.graficos_html_1{  
+    background-color: black;    
 }
 
-.graficos_html_2{
-    position: absolute;
-    left: 42%;
+.graficos_html_2{    
+    background-color: black;    
+}
+
+.graficos_html_3{  
+    background-color: black;  
+}
+
+
+.graficos_html_4{   
+    background-color: black;    
+}
+
+.graficos_html_5{   
+    background-color: black;     
+}
+
+.graficos_html_6{    
+    background-color: black;    
+}
+
+.graficos_html_7{   
     background-color: black;   
-    top: 75%;
 }
 
-.graficos_html_3{
-    position: absolute;
-    right: 6%;
-    background-color: black;
-    top: 75%;   
+.graficos_html_8{   
+    background-color: black;        
 }
 
-
-.graficos_html_4{
-    position: absolute;
-    left: 38%;
-    background-color: black;
-    top: 70%;   
-    
-}
-
-.graficos_html_5{
-    position: absolute;
-    left: 48%;
+.graficos_html_9{    
     background-color: black;   
-    top: 70%;   
-}
-
-.graficos_html_6{
-    position: absolute;
-    right: 35%;
-    background-color: black;
-    top: 70%;    
-}
-
-
-.graficos_html_7{
-    position: absolute;
-    left: 10%;
-    background-color: black;
-    top: 80%;   
-    
-}
-
-.graficos_html_8{
-    position: absolute;
-    left: 20%;
-    background-color: black;   
-    top: 80%;   
-}
-
-.graficos_html_9{
-    position: absolute;
-    left: 30%;;
-    background-color: black;
-    top: 80%;   
 }
 
 
@@ -162,9 +114,7 @@ left: 0%;
     border-style: solid solid solid;
     border-spacing: 5px;
     margin-right: 0px;            
-    position: absolute;
-    top: 5%;
-    right: 180px;}
+    }
 
     .pag_aficiones{
     background: white;
@@ -173,9 +123,7 @@ left: 0%;
     border-style: solid solid solid;
     border-spacing: 5px;
     margin-right: 0px;            
-    position: absolute;
-    top: 5%;
-    right: 90px;}
+   }
 
     .pag_contacto{
     background: white;
@@ -184,11 +132,12 @@ left: 0%;
     border-style: solid solid solid;
     border-spacing: 5px;
     margin-right: 0px;            
-    position: absolute;
-    top: 5%;
-    right: 10px;}
+   }
 
 #contenedor {
+    display: flex;
+}
+#contenedor_2 {
     display: flex;
 }
 #cuadro_izq {
@@ -197,6 +146,7 @@ left: 0%;
 #cuadro_datos {
     width: 30%;
 }
+
 
 /* TABLET*/
 @media (max-width: 1024px) {
