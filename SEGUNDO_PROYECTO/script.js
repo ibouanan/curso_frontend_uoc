@@ -1,16 +1,17 @@
 
 
 //Listado de variables
-var n1,n2,vsuma,i;
+var n1,n2,num1,num2,vsuma,i;
 var pares,inpares
 var array = [];
 
 //Entrada de numeros
-n1 = parseInt(prompt('Ingresar numero 1'));
-n2 = parseInt(prompt('Ingresar numero 2'));
-vsuma = n1 + n2;
+    n1 = parseInt(prompt('Ingresar numero 1'));
+    n2 = parseInt(prompt('Ingresar numero 2'));
 
-
+    4
+    100
+    
 //Funcion suma
 function suma(n1,n2,vsuma) {
     vsuma = n1 + n2;
@@ -22,22 +23,10 @@ function suma(n1,n2,vsuma) {
 function listapares(n1,n2,array) {
         
         for ( i = n1; i <= n2; i++) {
-        if ((i % 2 === 0) !== 0) {
+        if ((i % 2 === 0)) {
             array.push(i);
         } }
-        if (n1 == n2) {
-            if (n2 % i == 0) {
-                mensaje_primos = "Los numeros introducidos son primos ";
-            } else {
-                mensaje_primos= `Solo el numero  ${n1}  es primo`;
-            }
-        } else {
-            if (n2 % i == 0) {
-                mensaje_primos = `Solo el numero  ${n2}  es primo`;
-            } else {
-                mensaje_primos = "Ninguno de los numeros es primo ";
-            }
-        }    
+        
     return array;
     }
     
