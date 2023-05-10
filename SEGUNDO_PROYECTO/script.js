@@ -6,12 +6,26 @@ var pares,inpares
 var array = [];
 
 //Entrada de numeros
-    n1 = parseInt(prompt('Ingresar numero 1'));
-    n2 = parseInt(prompt('Ingresar numero 2'));
-
-    4
-    100
     
+n1 = parseInt(prompt('Ingresar numero 1'));
+n2 = parseInt(prompt('Ingresar numero 2'));
+
+   if  (n2 < n1 ) {
+        alert("El numero 2 no puede ser mas grande que el 1");
+        clearTimeout()
+    } 
+    else if  (n1 = 0) {
+        alert("Los numeros no pueden ser 0");
+        clearTimeout()
+    }
+    else if  (n1 = 0) {
+        alert("Los numeros no pueden ser 0");
+        clearTimeout()
+    }
+    else {
+  
+    }
+     
 //Funcion suma
 function suma(n1,n2,vsuma) {
     vsuma = n1 + n2;
